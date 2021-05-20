@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
-
-PROCESS='Arq'
+PROCESS="Arq"
 
 if pgrep -xq -- "${PROCESS}"; then
-    echo running
+    echo "true"
 else
-    echo not running
+    echo "false"
 fi
 
 exit 0

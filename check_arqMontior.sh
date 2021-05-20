@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
-PROCESS='Arq'
+PROCESS="Arq"
 
 if ps ax | grep -v grep | grep "${PROCESS}" &> /dev/null; then
-    echo running
+    echo "true"
 else
-    echo not running
+    echo "false"
 fi
 
 exit 0

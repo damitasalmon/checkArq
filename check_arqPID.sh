@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-PROCESS_NAME='Arq'
+PROCESS_NAME="Arq"
 if pgrep $PROCESS_NAME; then
-    echo 'Running';
+    echo "Running";
 fi
 
 exit 0
